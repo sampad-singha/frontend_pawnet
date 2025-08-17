@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import { Settings, Camera, MapPin, Calendar, Users, Heart, User } from 'lucide-react'
 import ProfileSettings from './ProfileSettings'
 import ProfilePosts from './ProfilePosts'
+import FileUploadForm from "@/components/common/FileUploadForm.jsx";
+import FileUpload from "@/components/common/FileUpload.jsx";
 
 const Profile = () => {
     const [activeTab, setActiveTab] = useState('posts')

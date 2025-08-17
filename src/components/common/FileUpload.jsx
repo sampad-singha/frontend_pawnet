@@ -42,7 +42,7 @@ const FileUpload = ({ setFolderName }) => {
 
     return (
         <div className="w-2/3 ml-auto mr-auto">
-            <h2 className="m-5 text-center text-2xl ">Chunk Upload</h2>
+            {/*<h2 className="m-5 text-center text-2xl ">Chunk Upload</h2>*/}
             <FilePond
                 className="[&_div.filepond--drop-label]:light:!bg-gray-200 [&_div.filepond--drop-label]:!rounded-md"
                 files={files}
