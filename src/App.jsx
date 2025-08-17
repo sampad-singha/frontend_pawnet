@@ -13,7 +13,7 @@ import Register from './pages/auth/Register'
 import ForgotPassword from './pages/auth/ForgotPassword'
 import ResetPassword from './pages/auth/ResetPassword'
 import Dashboard from './pages/Dashboard'
-import Profile from './pages/Profile'
+import Profile from './pages/profile/Profile.jsx'
 import NotFound from './pages/NotFound'
 
 function App() {
